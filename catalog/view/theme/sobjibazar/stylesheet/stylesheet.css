@@ -1,0 +1,431 @@
+/* Top section css code start */
+#header{
+    background: #fff;
+}
+#cur-lang{
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0px;
+}
+#acc-wish-che{
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0px;
+}
+#search-div{
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 5px 6px 5px;
+}
+#search input{
+    border: 1px solid #ccc;
+    border-radius: 0;
+    height: 33px;
+    line-height: 20px;
+    margin-top: 1px;
+    padding: 1px 10px 0px 10px;
+    font: 12px Arial;
+}
+#search input:focus{
+    box-shadow: none;
+}
+.btn-lg {
+    font-size: 12px;
+    line-height: 1.25;
+    padding: 8px 15px;
+    border-radius: 0;
+}
+#cart-div{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 0 6px 8px;
+}
+#top_link{list-style: none;padding: 0;}
+#top_link li {
+    display: inline-block;
+    margin-top: 5px;
+}
+#top_link li a{
+    color:#888888;
+    padding: 10px;
+    font:12px Myriad Pro;
+}
+
+
+#cart button{
+    background: none;
+    border:none;
+    padding: 5px 15px;
+    font:12px Arial;
+}
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    color: #fff;
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: outside none none;
+    min-width: 160px;
+    padding: 5px;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}/* Top section css code end */
+
+#content{margin-top:20px;}
+
+/* top menu css Start */
+
+#logo-div{
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0px;
+}
+#top_menu_div{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px 0px;
+}
+
+#top_menu{
+}
+
+#categories ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#categories ul li{
+    display: inline-block;
+    position:relative;
+}
+
+#categories ul li a{
+    display: inline-block;
+    position:relative;
+    color: #1a1a1a;
+    font:15px Arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+}
+
+#categories ul li a:hover{
+    text-decoration: none;
+    transition: all 0.7s ease;
+}
+
+#categories ul li > ul{
+    display: none;
+    border-left: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+
+#categories ul li:hover > ul{
+    display: block;
+    position:absolute;
+    line-height:1.9em;
+    z-index: 100;
+}
+
+#categories ul li > ul li a{
+    display: block;
+    background: none no-repeat scroll center top #fff;
+    font:13px Myriad Pro;
+    letter-spacing: 1px;
+    color:#000;
+    width: 230px;
+}
+#categories ul li > ul li a:hover{
+    display: block;
+    background: none repeat scroll 0 0 #fdfcec;
+    color: #6a6a6a;
+}
+/* top menu css end */
+
+.cat-img-title{
+    text-align: center;
+    font:bold 14px Arial;
+    background: #e7e3e9;
+    padding: 8px 0px;
+    display: block;
+    color:#000;
+}
+
+
+/* breadcrumb css start */
+.breadcrumb {
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 3px 0;
+    background: none;
+    font:12px Arial;
+}
+.breadcrumb a{color:#000;}
+.breadcrumb .fa{
+    color: #000;
+}
+/* breadcrumb css end */
+
+.category-img{
+	border:5px solid rgba(110,132,1,.9);
+	border-radius:3px;
+}
+
+/* latest-list css start */
+.latest-product{
+    margin-bottom:20px;
+}
+.latest-list{
+    margin-bottom: 15px;
+    border:1px solid #6e8401;
+    border-radius: 3px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+    font-family: Arial;
+}
+.latest-list img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.latest-list h3{
+    font-family: Arial;
+    font-size: 14px;
+    color:#6e8401;
+}
+.latest-list #price{
+    font-family: Arial;
+    font-size: 12px;
+    color:#5f7202;
+}
+.latest-list button{
+    font-family: Arial;
+    font-size: 12px;
+    background:#5f7202;
+    border:none;
+    color:#fff;
+    padding: 6px 25px;
+}
+.latest-list button:hover{
+    background:#6c8102;
+}
+/* latest-list css end */
+
+
+
+#category{
+    text-align: center;
+}
+
+
+
+/* category-sidebar css start */
+#category-sidebar{
+    list-style: none;
+    padding:0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+#category-sidebar li{
+    position: relative;
+}
+
+#category-sidebar li a{
+    background: #156;
+    color: #fff;
+    position: relative;
+    display: block;
+    padding: 6px 0px 6px 6px;
+    border-bottom: 1px solid #999;
+}
+
+#category-sidebar li a:hover{
+    background: #369;
+    transition: all 0.7s ease;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 0px 6px 6px;
+}
+
+#category-sidebar ul{
+    list-style: none;
+    padding:0;
+    display: none;
+    position: absolute;
+}
+
+#category-sidebar li:hover > ul{
+    display: block;
+    position: absolute;
+    left: 100%;
+    top:0;
+    margin-left: 1px;
+    width:100%;
+    z-index: 1000;
+}
+/* category-sidebar css end */
+
+
+
+/* details page css start */
+.detail_thumbnails{
+    list-style: none;
+    padding: 0;
+}
+
+.detail_thumbnails li:first-child{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detail_thumbnails .image-additional{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border:1px solid #6e8401;
+    border-radius: 3px;
+}
+
+#details h1{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 17px;
+    color: #5f7202;
+}
+
+#details h3{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    color: #5f7202;
+}
+#details p{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+    color: #5f7202;
+}
+#desc{
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 12px;
+    color: #5f7202;
+}
+#details button{
+    font-family: Arial;
+    font-size: 12px;
+    background:#5f7202;
+    border:none;
+    color:#fff;
+    padding: 6px 25px;
+    margin:10px 0px;
+}
+#details button:hover{
+    background:#6c8102;
+}
+
+/* details page css start */
+
+.products{
+    margin-top: 10px;
+}
+
+/* featured css start */
+
+#related-products{
+    text-align: center;
+}
+
+#related-products{
+    border: 1px solid #999;
+    color: #000;
+    float: left;
+    margin: 0 0 10px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+#related-products h3{
+    border-bottom: 1px dotted #46515c;
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    margin-top: 11px;
+    opacity: 0.5;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+#related-products img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#related-products p{
+    border-bottom: 1px dotted #46515c;
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    margin-top: 11px;
+    opacity: 0.5;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+#related-products button{
+    background: none repeat scroll 0 0 #3c8cc8;
+    border: 1px solid #3c8cc8;
+    color: #fff;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    line-height: 33px;
+    margin: 0 10px 15px 0;
+    text-transform: uppercase;
+    width: 138px;
+    margin-left: auto;
+    margin-left: auto;
+}
+/* related-products css end */
+
+
+/* footer css code start here */
+#footer{
+    border-top:1px solid #e4e4e4;
+    padding: 10px 0px;
+}
+#footer h5{
+    color:#000;
+    font:bold 15px Myriad Pro;
+    letter-spacing: 1px;
+}
+#footer li a{
+    color:#000;
+    font:12px Myriad Pro;
+}
+#footer p{
+    color:#000;
+    font:12px Myriad Pro;
+}
+#footer a{
+    color:#156;
+    font:12px Myriad Pro;
+}
+/* footer css code end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
